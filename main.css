@@ -1,0 +1,35 @@
+body{
+	margin:0;
+	padding: 0;
+	background:#000;
+}
+
+p {
+	font-size:8px;
+	line-height:8px;
+	text-align:justify;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: url(image.png) no-repeat center/cover;
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgb(225, 225, 255, 0);
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	text-align:center;
+	border: 1px solid #3498db;
+	color: aqua;
+	font-size: 20px;
+}
+
+.my-float{
+	margin-top:22px;
+}
